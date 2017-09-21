@@ -1,0 +1,68 @@
+@media (min-width: 1200px) {
+  .navBar {
+    width: 100%;
+    height: 3vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image: url("imageAssets/nav.png");
+    background-repeat: no-repeat;
+    background-size: cover; }
+    .navBar img {
+      display: inline-block;
+      float: right;
+      width: 2vw;
+      height: auto;
+      margin: 0.5vw 1vw; }
+
+  .contentDiv {
+    width: 100%;
+    height: 45vw;
+    padding-top: 15vw;
+    align-content: center; }
+    .contentDiv img {
+      display: block;
+      position: absolute;
+      width: 60%;
+      height: auto;
+      top: 7.86vw;
+      left: 0; }
+    .contentDiv #leftImg {
+      left: 40vw; }
+    .contentDiv .splashText {
+      display: block;
+      width: 45vw;
+      height: auto;
+      margin: auto;
+      padding-top: 1.5vw;
+      padding-bottom: 2vw;
+      text-align: center;
+      line-height: 100%;
+      font-family: 'Audiowide', sans-serif;
+      font-weight: normal;
+      font-size: 4vw;
+      color: white;
+      background-color: black; }
+    .contentDiv .subtitle {
+      display: block;
+      width: 25vw;
+      height: auto;
+      margin: auto;
+      margin-top: 5vw;
+      line-height: 100%;
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+      font-weight: bold;
+      font-size: 1vw;
+      color: black; }
+    .contentDiv div {
+      width: 20vw;
+      height: 0.1vw;
+      background-color: black;
+      margin: auto;
+      margin-top: 1vw; }
+
+  #infoContent {
+    background-color: #969696; } }
+
+/*# sourceMappingURL=styleSheet.css.map */
