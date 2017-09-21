@@ -2,67 +2,140 @@
   .navBar {
     width: 100%;
     height: 3vw;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     background-image: url("imageAssets/nav.png");
     background-repeat: no-repeat;
     background-size: cover; }
+    .navBar div {
+      background-color: white; }
     .navBar img {
       display: inline-block;
       float: right;
       width: 2vw;
       height: auto;
-      margin: 0.5vw 1vw; }
+      margin: 0.5vw 1vw;
+      z-index: 3; }
 
   .contentDiv {
     width: 100%;
     height: 45vw;
     padding-top: 15vw;
     align-content: center; }
-    .contentDiv img {
+
+  #splashContent img {
+    display: block;
+    position: absolute;
+    width: 60%;
+    height: auto;
+    top: 7.86vw;
+    left: 0; }
+  #splashContent #leftImg {
+    left: 40vw; }
+  #splashContent .splashText {
+    display: block;
+    width: 45vw;
+    height: auto;
+    margin: auto;
+    padding-top: 1.5vw;
+    padding-bottom: 2vw;
+    text-align: center;
+    line-height: 100%;
+    font-family: 'Audiowide', sans-serif;
+    font-weight: normal;
+    font-size: 4vw;
+    color: white;
+    background-color: black; }
+  #splashContent .subtitle {
+    display: block;
+    width: 25vw;
+    height: auto;
+    margin: auto;
+    margin-top: 5vw;
+    line-height: 100%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1vw;
+    color: black; }
+  #splashContent div {
+    width: 20vw;
+    height: 0.1vw;
+    background-color: black;
+    margin: auto;
+    margin-top: 1vw; }
+
+  #styleContent {
+    padding-top: 5vw;
+    background-color: black;
+    background-image: url("imageAssets/synthwaveRetroBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; }
+    #styleContent .subtitle {
       display: block;
-      position: absolute;
-      width: 60%;
-      height: auto;
-      top: 7.86vw;
-      left: 0; }
-    .contentDiv #leftImg {
-      left: 40vw; }
-    .contentDiv .splashText {
-      display: block;
-      width: 45vw;
-      height: auto;
+      width: 35vw;
       margin: auto;
-      padding-top: 1.5vw;
-      padding-bottom: 2vw;
-      text-align: center;
+      padding: 1vw;
+      border: 0.1vw solid white;
       line-height: 100%;
+      text-align: center;
       font-family: 'Audiowide', sans-serif;
       font-weight: normal;
-      font-size: 4vw;
+      font-size: 2vw;
       color: white;
-      background-color: black; }
-    .contentDiv .subtitle {
+      background-color: rgba(82, 60, 128, 0.2); }
+    #styleContent .textbox {
       display: block;
-      width: 25vw;
-      height: auto;
+      width: 55vw;
       margin: auto;
       margin-top: 5vw;
+      padding: 1vw 3vw;
+      border: 0.1vw solid white;
       line-height: 100%;
-      text-align: center;
+      text-align: left;
       font-family: 'Roboto', sans-serif;
-      font-weight: bold;
-      font-size: 1vw;
-      color: black; }
-    .contentDiv div {
-      width: 20vw;
-      height: 0.1vw;
-      background-color: black;
+      font-weight: normal;
+      font-size: 1.2vw;
+      color: white;
+      background-color: rgba(82, 60, 128, 0.4); }
+    #styleContent .quoteBox {
+      display: inline-block;
       margin: auto;
-      margin-top: 1vw; }
+      align-content: center;
+      width: 12vw;
+      vertical-align: top; }
+    #styleContent .lineDiv {
+      display: block;
+      width: 8vw;
+      height: 0.1vw;
+      margin: auto;
+      margin-top: 3vw;
+      background-color: white; }
+    #styleContent .quote {
+      display: block;
+      margin: 0vw;
+      margin-top: 0.5vw;
+      text-align: center; }
+    #styleContent .innerTextBox {
+      display: inline-block;
+      width: 35vw;
+      padding-left: 1vw;
+      padding-top: 3vw;
+      font-size: 2vw; }
+    #styleContent .textTitle {
+      display: block;
+      font-size: 2vw; }
+    #styleContent .text {
+      display: block;
+      width: 35vw;
+      padding-top: 3vw;
+      font-size: 1vw; }
 
-  #infoContent {
-    background-color: #969696; } }
+  #infoContent .col-sm {
+    background-color: black; }
+  #infoContent .col-lg {
+    margin: 0vw 20vw;
+    background-color: black; } }
 
 /*# sourceMappingURL=styleSheet.css.map */
