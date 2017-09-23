@@ -1,7 +1,6 @@
-$backgroundGray: rgb(150,150,150);
-$textboxTransparent: rgba(82,60,128,0.2);
-$textboxTransparentDarker: rgba(82,60,128,0.4);
-
+$textboxTransparent: rgba(30,8,76,0.4);
+$textboxTransparentDarker: rgba(30,8,76,0.8);
+$neonPink: rgba(230,18,214,0.4);
 
 $screen-sm-min: 320px;
 $screen-sm-max: 767px;
@@ -43,12 +42,13 @@ $screen-lg-min: 1200px;
     
     .contentDiv{
         width: 100%;
-        height: 45vw;
-        padding-top: 15vw;
+        height: 45vw;        
         align-content: center;
         
     }
     #splashContent{
+        padding-top: 15vw;
+        
         img{
             display: block;
             position: absolute;
@@ -156,7 +156,7 @@ $screen-lg-min: 1200px;
         .quote{
             display: block;
             margin: 0vw;           
-            margin-top: 0.5vw;
+            margin-top: 0.8vw;
             text-align: center;
         }
         .innerTextBox{
@@ -173,20 +173,138 @@ $screen-lg-min: 1200px;
         .text{
             display: block;
             width: 35vw;            
-            padding-top: 3vw;
+            padding-top: 1vw;
             font-size: 1vw
         }
-    }
-    
+    }   
+        
     #infoContent{
+        padding-top: 4vw;
+        padding-bottom: 6vw;
+        background-color: black;
         
-        
+        .line{
+            display: block;
+            width: 70vw;
+            height: 0.2vw;
+            margin: 1vw auto;     
+            background-color: white;
+        }
+        img{
+            position: absolute;
+            top: 130.5vw;
+            left: 48vw;
+            width: 3vw;                    
+        }         
+        .liner{
+            padding: 1vw;            
+            background-color: $textboxTransparentDarker;
+        }
         .col-sm{     
-            background-color: black;
+            background-color: $textboxTransparent;
         }
         .col-lg{
-            margin: 0vw 20vw;
-            background-color: black;
+            margin: 0vw 5vw;
+            padding: 1vw;
+            background-color: $textboxTransparent;
         }
-    }    
+        .subtitle{
+            display: block;
+            margin: 0vw 0.6vw;         
+            text-align: center;
+            font-family: 'Audiowide', sans-serif;
+            font-weight: normal;
+            font-size: 2vw;
+            color: white;
+        }
+        .text{
+            display: block;
+            margin: 1vw 0.8vw;         
+            font-family: 'Roboto', sans-serif;
+            font-weight: normal;
+            font-size: 0.9vw;
+            color: white;
+        }        
+        #contactForm{         
+            width: 24.1vw;
+            display: block;
+            margin: auto;
+            padding-top: 1.65vw;
+            vertical-align: top;
+            align-content: center;
+
+            input{
+                display: block;
+                width: 24.4vw;
+                height: 3.79vw;
+                margin: auto;
+                margin-bottom: 1.21vw;
+                padding: 1.21vw 1.36vw;
+                border: 0vw;
+                background-color: rgb(242,243,243);             
+                box-shadow: 0 4px 2px -2px gray;
+            }
+            #messageI{
+                width: 24.4vw;
+                height: 6.71vw;     
+                margin-bottom: 1.21vw;
+                padding: 1.21vw 1.36vw;
+                border: 0vw;
+                background-color: rgb(242,243,243);             
+                box-shadow: 0 4px 2px -2px gray;
+
+            }
+            #submitB{
+                background-color: $neonPink;
+                color: white;    
+                font-size: 0.9vw;
+            }
+            *::-webkit-input-placeholder {
+                color: black;
+                font-size: 0.9vw;
+            }
+            *:-moz-placeholder {            
+                color: black;
+                font-size: 0.9vw;
+            }
+            *::-moz-placeholder {            
+                color: black;
+                font-size: 0.9vw;
+            }
+            *:-ms-input-placeholder {            
+                color: black;
+                font-size: 0.9vw;
+            }
+        }    
+    }
+    
+    .footer{
+        display: block;
+        position: absolute;
+        height: 6vw;
+        width: 100vw;
+        top: 129.25vw;
+        padding: 2.1vw 25vw;
+        padding-right: 28vw;
+        background-color: black;
+        align-content: center;
+        
+        p{
+            display: inline-block;
+            color: white;
+            font-size: 0.8vw;            
+        }
+        #leftT{
+            float: left;
+        }
+        #rightT{
+            float: right;
+        }
+        img{
+            position: absolute;
+            top: 1.5vw;
+            left: 48vw;
+            width: 3vw;                    
+        } 
+    }
 }

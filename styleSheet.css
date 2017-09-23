@@ -21,50 +21,51 @@
   .contentDiv {
     width: 100%;
     height: 45vw;
-    padding-top: 15vw;
     align-content: center; }
 
-  #splashContent img {
-    display: block;
-    position: absolute;
-    width: 60%;
-    height: auto;
-    top: 7.86vw;
-    left: 0; }
-  #splashContent #leftImg {
-    left: 40vw; }
-  #splashContent .splashText {
-    display: block;
-    width: 45vw;
-    height: auto;
-    margin: auto;
-    padding-top: 1.5vw;
-    padding-bottom: 2vw;
-    text-align: center;
-    line-height: 100%;
-    font-family: 'Audiowide', sans-serif;
-    font-weight: normal;
-    font-size: 4vw;
-    color: white;
-    background-color: black; }
-  #splashContent .subtitle {
-    display: block;
-    width: 25vw;
-    height: auto;
-    margin: auto;
-    margin-top: 5vw;
-    line-height: 100%;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    font-size: 1vw;
-    color: black; }
-  #splashContent div {
-    width: 20vw;
-    height: 0.1vw;
-    background-color: black;
-    margin: auto;
-    margin-top: 1vw; }
+  #splashContent {
+    padding-top: 15vw; }
+    #splashContent img {
+      display: block;
+      position: absolute;
+      width: 60%;
+      height: auto;
+      top: 7.86vw;
+      left: 0; }
+    #splashContent #leftImg {
+      left: 40vw; }
+    #splashContent .splashText {
+      display: block;
+      width: 45vw;
+      height: auto;
+      margin: auto;
+      padding-top: 1.5vw;
+      padding-bottom: 2vw;
+      text-align: center;
+      line-height: 100%;
+      font-family: 'Audiowide', sans-serif;
+      font-weight: normal;
+      font-size: 4vw;
+      color: white;
+      background-color: black; }
+    #splashContent .subtitle {
+      display: block;
+      width: 25vw;
+      height: auto;
+      margin: auto;
+      margin-top: 5vw;
+      line-height: 100%;
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+      font-weight: bold;
+      font-size: 1vw;
+      color: black; }
+    #splashContent div {
+      width: 20vw;
+      height: 0.1vw;
+      background-color: black;
+      margin: auto;
+      margin-top: 1vw; }
 
   #styleContent {
     padding-top: 5vw;
@@ -84,7 +85,7 @@
       font-weight: normal;
       font-size: 2vw;
       color: white;
-      background-color: rgba(82, 60, 128, 0.2); }
+      background-color: rgba(30, 8, 76, 0.4); }
     #styleContent .textbox {
       display: block;
       width: 55vw;
@@ -98,7 +99,7 @@
       font-weight: normal;
       font-size: 1.2vw;
       color: white;
-      background-color: rgba(82, 60, 128, 0.4); }
+      background-color: rgba(30, 8, 76, 0.8); }
     #styleContent .quoteBox {
       display: inline-block;
       margin: auto;
@@ -115,7 +116,7 @@
     #styleContent .quote {
       display: block;
       margin: 0vw;
-      margin-top: 0.5vw;
+      margin-top: 0.8vw;
       text-align: center; }
     #styleContent .innerTextBox {
       display: inline-block;
@@ -129,13 +130,112 @@
     #styleContent .text {
       display: block;
       width: 35vw;
-      padding-top: 3vw;
+      padding-top: 1vw;
       font-size: 1vw; }
 
-  #infoContent .col-sm {
+  #infoContent {
+    padding-top: 4vw;
+    padding-bottom: 6vw;
     background-color: black; }
-  #infoContent .col-lg {
-    margin: 0vw 20vw;
-    background-color: black; } }
+    #infoContent .line {
+      display: block;
+      width: 70vw;
+      height: 0.2vw;
+      margin: 1vw auto;
+      background-color: white; }
+    #infoContent img {
+      position: absolute;
+      top: 130.5vw;
+      left: 48vw;
+      width: 3vw; }
+    #infoContent .liner {
+      padding: 1vw;
+      background-color: rgba(30, 8, 76, 0.8); }
+    #infoContent .col-sm {
+      background-color: rgba(30, 8, 76, 0.4); }
+    #infoContent .col-lg {
+      margin: 0vw 5vw;
+      padding: 1vw;
+      background-color: rgba(30, 8, 76, 0.4); }
+    #infoContent .subtitle {
+      display: block;
+      margin: 0vw 0.6vw;
+      text-align: center;
+      font-family: 'Audiowide', sans-serif;
+      font-weight: normal;
+      font-size: 2vw;
+      color: white; }
+    #infoContent .text {
+      display: block;
+      margin: 1vw 0.8vw;
+      font-family: 'Roboto', sans-serif;
+      font-weight: normal;
+      font-size: 0.9vw;
+      color: white; }
+    #infoContent #contactForm {
+      width: 24.1vw;
+      display: block;
+      margin: auto;
+      padding-top: 1.65vw;
+      vertical-align: top;
+      align-content: center; }
+      #infoContent #contactForm input {
+        display: block;
+        width: 24.4vw;
+        height: 3.79vw;
+        margin: auto;
+        margin-bottom: 1.21vw;
+        padding: 1.21vw 1.36vw;
+        border: 0vw;
+        background-color: #f2f3f3;
+        box-shadow: 0 4px 2px -2px gray; }
+      #infoContent #contactForm #messageI {
+        width: 24.4vw;
+        height: 6.71vw;
+        margin-bottom: 1.21vw;
+        padding: 1.21vw 1.36vw;
+        border: 0vw;
+        background-color: #f2f3f3;
+        box-shadow: 0 4px 2px -2px gray; }
+      #infoContent #contactForm #submitB {
+        background-color: rgba(230, 18, 214, 0.4);
+        color: white;
+        font-size: 0.9vw; }
+      #infoContent #contactForm *::-webkit-input-placeholder {
+        color: black;
+        font-size: 0.9vw; }
+      #infoContent #contactForm *:-moz-placeholder {
+        color: black;
+        font-size: 0.9vw; }
+      #infoContent #contactForm *::-moz-placeholder {
+        color: black;
+        font-size: 0.9vw; }
+      #infoContent #contactForm *:-ms-input-placeholder {
+        color: black;
+        font-size: 0.9vw; }
+
+  .footer {
+    display: block;
+    position: absolute;
+    height: 6vw;
+    width: 100vw;
+    top: 129.25vw;
+    padding: 2.1vw 25vw;
+    padding-right: 28vw;
+    background-color: black;
+    align-content: center; }
+    .footer p {
+      display: inline-block;
+      color: white;
+      font-size: 0.8vw; }
+    .footer #leftT {
+      float: left; }
+    .footer #rightT {
+      float: right; }
+    .footer img {
+      position: absolute;
+      top: 1.5vw;
+      left: 48vw;
+      width: 3vw; } }
 
 /*# sourceMappingURL=styleSheet.css.map */

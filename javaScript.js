@@ -12,3 +12,14 @@ $("a.navLink").mouseout(function(){
     $img.attr('src', $newSrc);
 })
 
+
+$("a.fLink").mouseover(function(){
+    var $p = $(this).children();
+    $p.css('color', 'cyan');     
+    
+})
+$("a.fLink").mouseout(function(){
+    var $p = $(this).children();    
+    $p.css('color', 'white');     
+})
+
