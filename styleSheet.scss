@@ -8,14 +8,7 @@ $screen-md-min: 768px;
 $screen-md-max: 1199px;
 $screen-lg-min: 1200px;
 
-@media (max-width: $screen-sm-max) {  
-    
-}
-@media (min-width: $screen-md-min) and (max-width: $screen-md-max){
-    
-}
-@media (min-width: $screen-lg-min) {
-    
+
     .navBar{    
         width: 100%;
         height: 3vw;
@@ -43,9 +36,9 @@ $screen-lg-min: 1200px;
     .contentDiv{
         width: 100%;
         height: 45vw;        
-        align-content: center;
-        
+        align-content: center;        
     }
+
     #splashContent{
         padding-top: 15vw;
         
@@ -255,6 +248,13 @@ $screen-lg-min: 1200px;
 
             }
             #submitB{
+                display: block;
+                width: 24.4vw;
+                height: 3.79vw;
+                margin: auto;
+                margin-bottom: 1.21vw;
+                padding: 1.21vw 1.36vw;
+                border: 0vw;
                 background-color: $neonPink;
                 color: white;    
                 font-size: 0.9vw;
@@ -305,6 +305,318 @@ $screen-lg-min: 1200px;
             top: 1.5vw;
             left: 48vw;
             width: 3vw;                    
+        } 
+    }
+
+
+@media (max-width: $screen-sm-max) {  
+    .navBar{    
+        width: 100%;
+        height: 4vw;
+        position: absolute;
+        top: 0vw;
+        left: 0vw;        
+        background-color: black;
+        
+        img{
+        display: inline-block;
+        float: right;
+        width: 3vw;
+        height: auto;
+        margin: 0.5vw 1vw;
+        z-index: 3;
+        }   
+    }
+}
+@media (min-width: $screen-md-min) and (max-width: $screen-md-max){
+    .navBar{    
+        width: 100%;
+        height: 4vw;
+        position: absolute;
+        top: 0vw;
+        left: 0vw;        
+        background-color: black;
+        
+        img{
+        display: inline-block;
+        float: right;
+        width: 3vw;
+        height: auto;
+        margin: 0.5vw 1vw;
+        z-index: 3;
+        }
+    }
+    
+    #splashContent{
+        height: 40vw;  
+        padding-top: 10vw;
+        
+        img{
+            display: block;
+            position: absolute;
+            width: 60%;
+            height: auto;
+            top: 2.86vw;
+            left: 0;
+        }         
+        #leftImg{
+             left: 40vw;
+        }
+        .splashText{
+            display: block;
+            width: 55vw;
+            height: auto;
+            margin: auto;
+            padding-top: 1.5vw;
+            padding-bottom: 2vw;
+            text-align: center;
+            line-height: 100%;
+            font-family: 'Audiowide', sans-serif;
+            font-weight: normal;
+            font-size: 5vw;
+            color: white;            
+            background-color: black;
+        }        
+        .subtitle{
+            display: block;
+            width: 45vw;
+            height: auto;
+            margin: auto;
+            margin-top: 5vw;
+            line-height: 100%;
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+            font-size: 2.5vw;
+            color: black;         
+        }
+        div{
+            width: 20vw;
+            height: 0.1vw;
+            background-color: black;
+            margin: auto;
+            margin-top: 1vw;           
+            
+        }
+    }
+    
+    #styleContent{
+        height: auto;
+        padding: 5vw 0vw;
+        
+        background-color: black;
+        background-image: url('imageAssets/synthwaveRetroBackground.jpg');
+        background-repeat: no-repeat;
+        background-size:cover;   
+        
+        .subtitle{
+            display: block;
+            width: 55vw;
+            margin: auto;
+            padding: 1vw;
+            border: 0.1vw solid white;
+            line-height: 100%;
+            text-align: center;
+            font-family: 'Audiowide', sans-serif;
+            font-weight: normal;
+            font-size: 3vw;
+            color: white;
+            background-color: $textboxTransparent;            
+        }
+        
+        .textbox{
+            display: block;
+            width: 85vw;
+            margin: auto;
+            margin-top: 5vw;
+            padding: 1vw 3vw;
+            border: 0.1vw solid white;
+            line-height: 100%;
+            text-align: left;
+            font-family: 'Roboto', sans-serif;
+            font-weight: normal;
+            font-size: 2vw;
+            color: white;
+            background-color: $textboxTransparentDarker;
+        }
+        
+        .quoteBox{
+            display: inline-block;
+            margin: auto;           
+            align-content: center;
+            width: 20vw;
+            vertical-align: top;
+        }
+        
+         .lineDiv{
+            display: block;            
+            width: 8vw;
+            height: 0.1vw;
+            margin: auto;
+            margin-top: 3vw;            
+            background-color: white;
+        }        
+        .quote{
+            display: block;
+            margin: 0vw;           
+            margin-top: 0.8vw;
+            text-align: center;
+        }
+        .innerTextBox{
+            display: inline-block;
+            width: 55vw;
+            padding-left: 1vw;
+            padding-top: 3vw;
+            font-size: 2vw;
+        }
+        .textTitle{
+            display: block;            
+            font-size: 2.5vw;
+        }
+        .text{
+            display: block;
+            width: 55vw;            
+            padding-top: 1vw;
+            font-size: 2vw
+        }
+    }  
+    
+    #infoContent{
+        height: auto;
+        padding-top: 4vw;
+        padding-bottom: 6vw;
+        background-color: black;
+        
+        .line{
+            display: block;
+            width: 70vw;
+            height: 0.2vw;
+            margin: 1vw auto;     
+            background-color: white;
+        }
+        img{
+            position: absolute;
+            top: 130.5vw;
+            left: 48vw;
+            width: 3vw;                    
+        }         
+        .liner{
+            padding: 1vw;            
+            background-color: $textboxTransparentDarker;
+        }
+        .col-sm{     
+            background-color: $textboxTransparent;
+        }
+        .col-lg{
+            margin: 0vw 5vw;
+            padding: 1vw;
+            background-color: $textboxTransparent;
+        }
+        .subtitle{
+            display: block;
+            margin: 0vw 0.6vw;         
+            text-align: center;
+            font-family: 'Audiowide', sans-serif;
+            font-weight: normal;
+            font-size: 3vw;
+            color: white;
+        }
+        .text{
+            display: block;
+            margin: 1vw 0.8vw;         
+            font-family: 'Roboto', sans-serif;
+            font-weight: normal;
+            font-size: 1.8vw;
+            color: white;
+        }        
+        #contactForm{         
+            width: 44.1vw;
+            
+            display: block;
+            margin: auto;
+            padding-top: 1.65vw;
+            vertical-align: top;
+            align-content: center;
+
+            input{
+                display: block;
+                width: 44.4vw;
+                height: 3.79vw;
+                margin: auto;
+                margin-bottom: 1.21vw;
+                padding: 1.21vw 1.36vw;
+                border: 0vw;
+                background-color: rgb(242,243,243);             
+                box-shadow: 0 4px 2px -2px gray;
+            }
+            #messageI{
+                width: 44.4vw;
+                height: 6.71vw;     
+                margin-bottom: 1.21vw;
+                padding: 1.21vw 1.36vw;
+                border: 0vw;
+                background-color: rgb(242,243,243);             
+                box-shadow: 0 4px 2px -2px gray;
+
+            }
+            #submitB{
+                display: block;
+                width: 24.4vw;
+                height: auto;
+                margin: auto;
+                margin-bottom: 1.21vw;
+                padding: 1.21vw 1.36vw;
+                border: 0vw;
+                background-color: $neonPink;
+                color: white;    
+                font-size: 1.8vw;
+            }
+            *::-webkit-input-placeholder {
+                color: black;
+                font-size: 1.8vw;
+            }
+            *:-moz-placeholder {            
+                color: black;
+                font-size: 1.8vw;
+            }
+            *::-moz-placeholder {            
+                color: black;
+                font-size: 1.8vw;
+            }
+            *:-ms-input-placeholder {            
+                color: black;
+                font-size: 1.8vw;
+            }
+        }    
+    }
+    
+    .footer{
+        display: block;
+        position: absolute;
+        height: 6vw;
+        width: 100vw;
+        top: 187.7vw;
+        padding: 2.1vw 15vw;
+        padding-right: 18vw;
+        background-color: black;
+        align-content: center;
+        
+        p{
+            display: inline-block;
+            color: white;
+            font-size: 1.6vw;            
+        }
+        #leftT{
+            float: left;
+        }
+        #rightT{
+            float: right;
+        }
+        img{
+            position: absolute;
+            top: 0.5vw;
+            left: 47.5vw;
+            width: 5vw;                    
         } 
     }
 }
